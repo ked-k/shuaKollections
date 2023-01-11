@@ -7,7 +7,7 @@ if(session_status() == PHP_SESSION_NONE)
 
 date_default_timezone_set("Africa/Kampala");
 try {
-  $db = new PDO('mysql:host=localhost;dbname=shuajfaj_pos;charset=utf8mb4', 'shuajfaj_ked', 'kingked3');
+  $db = new PDO('mysql:host=localhost;dbname=ssalluxb_pos;charset=utf8mb4', 'ssalluxb_admin', 'admin441f!');
   $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);	
 } catch (PDOException $e) {

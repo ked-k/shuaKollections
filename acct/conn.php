@@ -5,9 +5,9 @@ if(session_status() == PHP_SESSION_NONE)
 }
 
 $servername = "localhost";
-$username = "shuajfaj_ked";
-$password = "kingked3";
-$dbname = "shuajfaj_pos";
+$username = "ssalluxb_admin";
+$password = "admin441f!";
+$dbname = "ssalluxb_pos";
 date_default_timezone_set("Africa/Kampala");
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
